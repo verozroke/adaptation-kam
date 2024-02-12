@@ -17,11 +17,11 @@ defineProps<{
 
 <style scoped>
 .hero {
-  height: 400px !important;
+  height: 300px !important;
 }
 
 .hero-overlay {
-  background-color: rgba(160, 0, 0, 0.637);
+  background-color: #14454193;
   display: flex;
   align-items: center;
   justify-content: center;

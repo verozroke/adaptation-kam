@@ -11,22 +11,18 @@
       :dot-color="colors.red"
     >
 
-      <v-menu open-on-hover>
-        <template v-slot:activator="{ props }">
-          <v-card-subtitle
-            v-bind="props"
-            :style="{ color: colors.darkgreen }"
-            style="font-weight: 700; opacity: 1;"
-          >{{ item.title }}</v-card-subtitle>
-        </template>
-
+      <div class="timeline-body">
+        <v-card-subtitle
+          :style="{ color: colors.darkgreen }"
+          style="font-weight: 700; opacity: 1; font-size: 14px; text-align: center;"
+        >{{ item.title }}</v-card-subtitle>
         <v-list>
           <v-list-item class="list-window">
             <span v-html="item.text">
             </span>
           </v-list-item>
         </v-list>
-      </v-menu>
+      </div>
     </v-timeline-item> </v-timeline>
 </template>
 
@@ -60,7 +56,15 @@ const items = ref([
 <style scoped>
 .list-window {
   color: #144541;
-  width: 300px;
   padding: 10px;
+  font-size: 12px;
+  width: 250px;
+  text-align: justify;
+}
+
+.timeline-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
