@@ -1,14 +1,15 @@
 <template>
   <div class="col">
-    <v-btn
-      v-for="{ url, text } in links"
-      :key="text"
+    <template v-for="{ url, text } in links" :key="text">
+      <v-btn
+      v-if="text"
       style="text-transform: none;"
       :color="colors.darkgreen"
       variant="elevated"
       prepend-icon="mdi-link-variant"
       @click="goTo(url)"
-    >{{ text ? text : 'Перейти по ссылке' }}</v-btn>
+    >{{ text }}</v-btn>
+    </template>
   </div>
 </template>
 

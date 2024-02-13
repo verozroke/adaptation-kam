@@ -7,7 +7,7 @@
     >
       <v-icon>mdi-home</v-icon>
     </v-btn>
-    <v-app-bar-title><b>{{ pageTitle }}</b></v-app-bar-title>
+    <v-app-bar-title><b>Адаптация для Key Account Managers</b></v-app-bar-title>
     <template v-slot:append>
       <v-btn
         @click="goTo('https://www.applecity.kz/')"

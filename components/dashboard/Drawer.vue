@@ -9,7 +9,7 @@ const isRailOpen = ref(false)
   <v-navigation-drawer
     :expand-on-hover="headerStore.expandOnHover"
     v-model:rail="isRailOpen"
-    :width="400"
+    :width="300"
     v-model="headerStore.drawer"
   >
     <v-list-item v-if="!isRailOpen">
@@ -31,6 +31,6 @@ const isRailOpen = ref(false)
 }
 
 .flex-1 {
-  margin-right: 100px;
+  margin-right: 10px;
 }
 </style>
