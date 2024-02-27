@@ -6,5 +6,6 @@ export type CardLink = {
 export type Card = {
   title: string
   subtitle: string
+  dialogText?: string
   link: CardLink | CardLink[]
 }

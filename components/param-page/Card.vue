@@ -6,7 +6,7 @@
     prepend-icon="mdi-dots-grid"
   >
     <v-card-text>{{ subtitle ? subtitle : 'Перейдите по ссылкам и следуйте дальше.' }}</v-card-text>
-    <CardLinkButtons :links="links" />
+    <CardLinkButtons :card="card" />
   </v-card>
 </template>
 
