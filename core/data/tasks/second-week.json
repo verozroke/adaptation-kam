@@ -2,7 +2,6 @@
   {
     "title": "Изучение Категорийной экспертизы",
     "subtitle": "",
-    "dialogText": "",
     "link": {
       "text": "Ссылка на категорийную экспертизу",
       "url": "https://applecitycorps-my.sharepoint.com/:f:/g/personal/gumarova_a_applecity_kz/EkVgUGAOlv1Or7v3dPJvILgBPLxBOUmuPv3qsuAu0jVoCg?e=rXfSLw"
@@ -10,17 +9,15 @@
   },
   {
     "title": "Изучи One pager по категориям",
-    "subtitle": "",
-    "dialogText": "Скопируй путь в папку Category Expertise, которая размещена в серверной папке Unit Manager. В разных категориях вы найдете файлы в формате word под названием \"DPSM...\"",
+    "subtitle": "Скопируй путь в папку Category Expertise, которая размещена в серверной папке Unit Manager. В разных категориях вы найдете файлы в формате word под названием \"DPSM...\"",
     "link": {
-      "text": "Ссылка на One pager по категориям",
+      "text": "Ссылка на папку",
       "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Category Expertise"
     }
   },
   {
     "title": "Работа AiO (All in One) - Продолжение",
     "subtitle": "Руководитель / Наставник дает задание по планированию Промо",
-    "dialogText": "",
     "link": {
       "text": "Видео тренинг по согласованию Промо",
       "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Обучение\\Видео с обучения\\111 Процесс проверки и согласования промо планов в AiO 01.07.2021.mkv"
@@ -29,7 +26,6 @@
   {
     "title": "Промо планирование в PPT (Promo Planning Tool) в соответствии с актуальным Promo Guidance",
     "subtitle": "",
-    "dialogText": "",
     "link": {
       "text": "Смотреть планирование Promo Guidance",
       "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Promo Guidance\\2023"
@@ -38,7 +34,6 @@
   {
     "title": "Работа по ПДЗ Заказчика",
     "subtitle": "Руководитель / Наставник введет в работу по ПДЗ",
-    "dialogText": "",
     "link": {
       "text": "LEG-02-SOP-1 Процедура по работе с дебиторской задолженностью",
       "url": "https://corps.applecity.kz/doku.php?id=ac:all:leg02:sop-01"
@@ -47,7 +42,6 @@
   {
     "title": "Изучение принципов работы с Фондами (AF, KBD, Alt KBD)",
     "subtitle": "Совместно с Руководителем / Наставником",
-    "dialogText": "",
     "link": [
       {
         "text": "Изучи Инструкцию по работе с PoP",
@@ -62,7 +56,6 @@
   {
     "title": "Как увеличить эффективность промо плана",
     "subtitle": "",
-    "dialogText": "",
     "link": {
       "text": "Смотреть презентацию \"Эффективность использования фондов\"",
       "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Обучение\\Тренинги\\Как увеличить эффективность промо плана.pdf"
@@ -71,7 +64,6 @@
   {
     "title": "Критерии по соблюдению CVE требований в категориях",
     "subtitle": "",
-    "dialogText": "",
     "link": {
       "text": "Смотреть CVE требования",
       "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Customer Value Equation\\CVE 2023"
@@ -80,7 +72,6 @@
   {
     "title": "После выезда в поля составить как минимум 2 Аудита DPSM",
     "subtitle": "Назначь встречу с Обратной связи с  Руководителем. Чек лист вопросов сотрудника для one to one с руководителем после 2 недели: 1. Обсуждение с руководителем системы рейтингов/системы КП, 2. Обсудить процесс согласования КП с руководителем и отчетности по выполнению задач в КП",
-    "dialogText": "",
     "link": [
       {
         "text": "Образец обратной связи по аудиту",

@@ -5,36 +5,34 @@
       :key="text"
     >
       <v-btn
-        v-if="text"
+        v-if="text && text !== 'Ссылка на папку'"
         style="text-transform: none;"
         :color="colors.darkgreen"
         variant="elevated"
         prepend-icon="mdi-link-variant"
-        @click="card.dialogText ? openBottomSheet() : goTo(url)"
+        @click="goTo(url)"
       >{{ text }}</v-btn>
-
-      <v-bottom-sheet v-model="sheet">
-        <v-card
-          class="text-center"
-          height="200"
-        >
-          <v-card-text>
+      <v-menu v-else>
+        <template v-slot:activator="{ props }">
+          <template
+            v-for="{ url, text } in (Array.isArray(card.link) ? card.link : [card.link])"
+            :key="text"
+          >
             <v-btn
-              :color="colors.lightdarkgreen"
-              variant="text"
-              @click="sheet = !sheet"
-            >
-              Закрыть
-            </v-btn>
-            <br>
-            <br>
-            <div>
-              {{ card.dialogText }} <br>
-              <span>Ссылка на папку: <b>{{ url }}</b></span>
-            </div>
-          </v-card-text>
-        </v-card>
-      </v-bottom-sheet>
+              style="text-transform: none;"
+              v-bind="props"
+              :color="colors.darkgreen"
+              variant="elevated"
+              prepend-icon="mdi-link-variant"
+            >{{ text }}</v-btn>
+          </template>
+        </template>
+        <v-list>
+          <v-list-item @click="copy(url)">
+            <v-list-item-title>{{ url }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
     </template>
 
   </div>
@@ -45,13 +43,13 @@
 import { goTo } from '@/core/utils'
 import { colors } from '~/core/color/color';
 import type { Card } from '~/core/types/cards';
+const toastStore = useToastStore()
 
-const sheet = ref(false)
 
-const openBottomSheet = () => {
-  sheet.value = true
+const copy = (url: string) => {
+  navigator.clipboard.writeText(url);
+  toastStore.openSnackbar('Ссылка скопирована в буфер обмена', 2000, '#3c4dff')
 }
-
 
 defineProps<{
   card: Card
