@@ -12,7 +12,6 @@ export const useNavUrls = () => {
       items: [
         { text: '1 Неделя', icon: 'mdi-numeric-1-circle-outline', url: '/tasks/first-week' },
         { text: '2 Неделя', icon: 'mdi-numeric-2-circle-outline', url: '/tasks/second-week' },
-        { text: '3 Неделя', icon: 'mdi-numeric-3-circle-outline', url: '/tasks/third-week' },
       ]
     },
     informationBlocks: {

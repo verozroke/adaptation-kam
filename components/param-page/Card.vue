@@ -5,12 +5,15 @@
     variant="tonal"
     prepend-icon="mdi-dots-grid"
   >
-    <v-card-text>{{ subtitle ? subtitle : 'Перейдите по ссылкам и следуйте дальше.' }}</v-card-text>
+    <v-card-text>{{ subtitle ? subtitle : '' }}</v-card-text>
     <CardLinkButtons :card="card" />
   </v-card>
 </template>
 
-<script setup lang="ts">
+<script
+  setup
+  lang="ts"
+>
 import type { Card } from '~/core/types/cards';
 
 const props = defineProps<{

@@ -165,15 +165,29 @@
   {
     "title": "Excel, Дополнительные навыки",
     "link": {
-      "text": "Тренинг",
+      "text": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Обучение\\Тренинги\\Excel\\Хитрости Excel.pdf",
       "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Обучение\\Тренинги\\Excel\\Хитрости Excel.pdf"
     }
   },
   {
     "title": "Excel, быстрые команды",
     "link": {
-      "text": "Тренинг",
+      "text": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Обучение\\Тренинги\\Excel\\Горячие клавиши в Excel.pdf",
       "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Обучение\\Тренинги\\Excel\\Горячие клавиши в Excel.pdf"
+    }
+  },
+  {
+    "title": "Excel - Базовые навыки",
+    "link": {
+      "text": "Смотреть видео тренинг",
+      "url": "https://youtu.be/JEzzk_YACtE"
+    }
+  },
+  {
+    "title": "Power BI для СР",
+    "link": {
+      "text": "Смотреть видео тренинг",
+      "url": "#"
     }
   }
 ]

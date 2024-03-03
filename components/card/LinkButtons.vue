@@ -12,7 +12,7 @@
         prepend-icon="mdi-link-variant"
         @click="goTo(url)"
       >{{ text }}</v-btn>
-      <v-menu v-else>
+      <v-menu v-else-if="text && text === 'Ссылка на папку'">
         <template v-slot:activator="{ props }">
           <template
             v-for="{ url, text } in (Array.isArray(card.link) ? card.link : [card.link])"
@@ -38,7 +38,10 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script
+  setup
+  lang="ts"
+>
 
 import { goTo } from '@/core/utils'
 import { colors } from '~/core/color/color';

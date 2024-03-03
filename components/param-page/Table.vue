@@ -31,10 +31,21 @@
         <td>{{ title }}</td>
         <td>
           <div class="col">
-            <a
-              v-for="link in getLinks(links)"
-              :href="link.url"
-            >{{ link.text }}</a>
+            <template v-for="link in getLinks(links)">
+              <v-btn
+                v-if="link.text === link.url"
+                style="text-transform: none;"
+                :color="colors.darkgreen"
+                variant="elevated"
+                density="compact"
+                prepend-icon="mdi-link-variant"
+                @click="copy(link.url)"
+              >Скопировать ссылку</v-btn>
+              <a
+                v-else
+                :href="link.url"
+              >{{ link.text }}</a>
+            </template>
           </div>
         </td>
       </tr>
@@ -42,10 +53,19 @@
   </v-table>
 </template>
 
-<script setup lang="ts">
+<script
+  setup
+  lang="ts"
+>
 import type { TableRow, TableRowLink } from '~/core/types/tables';
+import { colors } from '~/core/color/color'
 
+const toastStore = useToastStore()
 
+const copy = (url: string) => {
+  navigator.clipboard.writeText(url);
+  toastStore.openSnackbar('Ссылка скопирована в буфер обмена', 2000, '#3c4dff')
+}
 
 const getLinks = (links: TableRowLink | TableRowLink[]) => (Array.isArray(links) ? links : [links])
 

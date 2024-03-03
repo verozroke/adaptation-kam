@@ -17,18 +17,18 @@
   },
   {
     "title": "Работа AiO (All in One) - Продолжение",
-    "subtitle": "Руководитель / Наставник дает задание по планированию Промо",
+    "subtitle": "Запланировать промо и проверить корректность заполнения с Руководителем / Наставником.",
     "link": {
-      "text": "Видео тренинг по согласованию Промо",
-      "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Обучение\\Видео с обучения\\111 Процесс проверки и согласования промо планов в AiO 01.07.2021.mkv"
+      "text": "",
+      "url": ""
     }
   },
   {
     "title": "Промо планирование в PPT (Promo Planning Tool) в соответствии с актуальным Promo Guidance",
-    "subtitle": "",
+    "subtitle": "Скопируй путь в папку Promo Guidance 2024, которая размещена в серверной папке Unit Manager. Можно использовать проводник для быстрого перехода в папку.",
     "link": {
-      "text": "Смотреть планирование Promo Guidance",
-      "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Promo Guidance\\2023"
+      "text": "Ссылка на папку",
+      "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Promo Guidance\\2024"
     }
   },
   {
@@ -40,33 +40,27 @@
     }
   },
   {
-    "title": "Изучение принципов работы с Фондами (AF, KBD, Alt KBD)",
+    "title": "Изучение принципов работы с отчетностью PoP",
     "subtitle": "Совместно с Руководителем / Наставником",
-    "link": [
-      {
-        "text": "Изучи Инструкцию по работе с PoP",
-        "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\PoP\\Инструкция по работе с PoP.xlsb"
-      },
-      {
-        "text": "Изучи Файл с Рейтами и распределением заказчиков СР по программам Alt KBD/KBD",
-        "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Подготовка к переговорам\\KBD Rates.xlsb"
-      }
-    ]
+    "link": {
+      "text": "Изучи Инструкцию по работе с PoP",
+      "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\PoP\\Инструкция по работе с PoP.xlsb"
+    }
   },
   {
-    "title": "Как увеличить эффективность промо плана",
-    "subtitle": "",
+    "title": "Изучение Файла с Рейтами и распределением заказчиков СР по программам Alt KBD/KBD",
+    "subtitle": "Скопируй путь в файл KBD rates, который размещен в серверной папке Unit Manager. Можно использовать проводник для быстрого перехода в папку.",
     "link": {
-      "text": "Смотреть презентацию \"Эффективность использования фондов\"",
-      "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Обучение\\Тренинги\\Как увеличить эффективность промо плана.pdf"
+      "text": "Ссылка на папку",
+      "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Подготовка к переговорам\\KBD Rates.xlsb"
     }
   },
   {
     "title": "Критерии по соблюдению CVE требований в категориях",
-    "subtitle": "",
+    "subtitle": "Скопируй путь в папку CVE 2024, которая размещена в серверной папке Unit Manager. Можно использовать проводник для быстрого перехода в папку.",
     "link": {
-      "text": "Смотреть CVE требования",
-      "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Customer Value Equation\\CVE 2023"
+      "text": "Ссылка на папку",
+      "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Customer Value Equation\\CVE 2024"
     }
   },
   {
@@ -75,7 +69,7 @@
     "link": [
       {
         "text": "Образец обратной связи по аудиту",
-        "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\Планограммы\\Образец обратной связи по полевому аудиту.xlsb"
+        "url": "https://applecitycorps-my.sharepoint.com/:x:/g/personal/gumarova_a_applecity_kz/ESYOyiE8crtGso7cGVqB1MkBTXB0x0zOx6Y_BfTJiqtjzQ?e=S0gnwG"
       },
       {
         "text": "HR-SOP-14 Проведение встреч 1 на 1",

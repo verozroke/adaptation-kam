@@ -1,18 +1,24 @@
 [
   {
     "title": "Запросить доступ на серверную папку в Сервис Деск IT",
-    "subtitle": "",
-    "link": {
-      "text": "Ссылка на папку",
-      "url": "/docs/tasks/Запросить доступ на серверную папку в Сервис Деск IT.pdf"
-    }
+    "subtitle": "Скопируй ссылку на серверную папку Unit Manager СР и запроси доступ на папку через Сервис Деск IT",
+    "link": [
+      {
+        "text": "Ссылка на папку",
+        "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР"
+      },
+      {
+        "text": "Сервис Деск IT",
+        "url": "http://web:3380/ServiceDesk/ru_RU/"
+      }
+    ]
   },
   {
     "title": "После выезда в поля составить как минимум 1 Аудит DPSM",
     "subtitle": "",
     "link": {
       "text": "Образец обратной связи по аудиту ДПШМ",
-      "url": "/docs/tasks/После выезда в поля составить как минимум 1 Аудит DPSM.pdf"
+      "url": "https://applecitycorps-my.sharepoint.com/:x:/g/personal/gumarova_a_applecity_kz/ESYOyiE8crtGso7cGVqB1MkBTXB0x0zOx6Y_BfTJiqtjzQ?e=S0gnwG"
     }
   },
   {
@@ -28,24 +34,22 @@
     "subtitle": "",
     "link": {
       "text": "SBD стандарты",
-      "url": "/docs/tasks/Изучение презентации по SBD (Shopper based design) стандартам для каждой категории брендов P&G.pdf"
-    }
-  },
-  {
-    "title": "Ознакомление с процессом AiO (All in One)",
-    "subtitle": "",
-    "link": {
-      "text": "Видео онбординг AiO",
-      "url": "/docs/tasks/Ознакомление с процессом AiO (All in One).pdf"
+      "url": "https://applecitycorps-my.sharepoint.com/:p:/g/personal/gumarova_a_applecity_kz/ET_YCEbTrSlKiWWg-bF59P4BUfPTvvYNllQpa3OdJ7Tw4w?e=NahOZw"
     }
   },
   {
     "title": "Работа с промо и AiO (All in One) - Введение",
     "subtitle": "",
-    "link": {
-      "text": "Смотреть Инструкции по работе с AiO, Смотреть видео",
-      "url": "/docs/tasks/Работа с промо и AiO (All in One) - Введение.pdf"
-    }
+    "link": [
+      {
+        "text": "Смотреть Инструкции по работе с AiO",
+        "url": "https://applecitycorps-my.sharepoint.com/:w:/g/personal/gumarova_a_applecity_kz/Ear1lwWnnEtNkCVDNxSaAGYBinM6w76-9Yvtqi3c-CQvng?e=5MGH4T"
+      },
+      {
+        "text": "Смотреть видео по работе в AiO",
+        "url": "#"
+      }
+    ]
   },
   {
     "title": "Ознакомление с процессом работы с Фондами (AF, KBD, Alt KBD)",
@@ -76,15 +80,15 @@
     "subtitle": "",
     "link": {
       "text": "Смотреть презентацию: ТУ в СР",
-      "url": "/docs/tasks/Торговые условия в Современной Рознице.pdf"
+      "url": "https://applecitycorps-my.sharepoint.com/:p:/g/personal/gumarova_a_applecity_kz/Ef3a9eMq9ctBlIR_uudaLtoBbotJiqPKJkiHC9W9KmRsvA?e=Z7cD42"
     }
   },
   {
     "title": "Ознакомиться с One pager Заказчиков",
-    "subtitle": "",
+    "subtitle": "Скопируй путь в папку One pager, которая размещена в серверной папке Unit Manager. Можно использовать проводник для быстрого перехода в папку.",
     "link": {
-      "text": "Ознакомиться с One pager Заказчиков",
-      "url": "/docs/tasks/Ознакомиться с One pager Заказчиков.pdf"
+      "text": "Ссылка на папку",
+      "url": "\\\\Fileservgen\\DP\\Modern_Trade_Team\\Unit Manager СР\\One Pager"
     }
   },
   {
@@ -96,8 +100,8 @@
     }
   },
   {
-    "title": "Назначь встречу с Обратной связи с Руководителем",
-    "subtitle": "Чек-лист вопросов сотрудника для One to One с руководителем после первой недели:",
+    "title": "Назначь встречу по Обратной связи с Руководителем",
+    "subtitle": "Чек-лист вопросов сотрудника для One to One с руководителем после первой недели: \n\n 1. Обсудить с руководителем рабочий график\n2. Структуру отдела и карьерные возможности\n3. Процесс планирования ЕТО",
     "link": {
       "text": "HR-SOP-14 Проведение встреч 1 на 1",
       "url": "https://corps.applecity.kz/doku.php?id=ac:ac:hr-sop-11"

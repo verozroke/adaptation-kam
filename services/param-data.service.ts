@@ -1,7 +1,6 @@
 // tasks data
 import tasksFirstWeek from '@/core/data/tasks/first-week.json' assert { type: 'json' };
 import tasksSecondWeek from '@/core/data/tasks/second-week.json' assert { type: 'json' };
-import tasksThirdWeek from '@/core/data/tasks/third-week.json' assert { type: 'json' };
 
 // meetings data
 import meetingsFirstWeek from '@/core/data/meetings/first-week.json' assert { type: 'json' };
@@ -19,7 +18,6 @@ import expertise from '@/core/data/information-blocks/procedures/expertise.json'
 export const ParamDataServiceJsonMap = {
   '/tasks/first-week': tasksFirstWeek,
   '/tasks/second-week': tasksSecondWeek,
-  '/tasks/third-week': tasksThirdWeek,
   '/meetings/first-week': meetingsFirstWeek,
   '/meetings/second-week': meetingsSecondWeek,
   '/information-blocks/company-procedures': companyProcedures,
