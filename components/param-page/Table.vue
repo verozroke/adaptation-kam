@@ -34,9 +34,9 @@
             <template v-for="link in getLinks(links)">
               <v-btn
                 v-if="link.text === link.url"
-                style="text-transform: none;"
-                :color="colors.darkgreen"
-                variant="elevated"
+                style="text-transform: none; width: fit-content"
+                color="#0066cc"
+                variant="text"
                 density="compact"
                 prepend-icon="mdi-link-variant"
                 @click="copy(link.url)"
@@ -44,6 +44,7 @@
               <a
                 v-else
                 :href="link.url"
+                style="padding: 0 10px"
               >{{ link.text }}</a>
             </template>
           </div>

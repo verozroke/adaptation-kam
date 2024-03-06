@@ -3,4 +3,5 @@ export const colors = {
   lightdarkgreen: '#37c271',
   red: 'red',
   white: '#fff',
+  slate: '#f8fafc'
 }
