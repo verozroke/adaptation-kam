@@ -40,10 +40,11 @@
                 density="compact"
                 prepend-icon="mdi-link-variant"
                 @click="copy(link.url)"
-              >Скопировать ссылку</v-btn>
+              >Скопировать ссылку в серверную папку</v-btn>
               <a
                 v-else
                 :href="link.url"
+                target="_blank"
                 style="padding: 0 10px"
               >{{ link.text }}</a>
             </template>
