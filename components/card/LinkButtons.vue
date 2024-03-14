@@ -14,18 +14,13 @@
       >{{ text }}</v-btn>
       <v-menu v-else-if="text && text === 'Ссылка на папку'">
         <template v-slot:activator="{ props }">
-          <template
-            v-for="{ url, text } in (Array.isArray(card.link) ? card.link : [card.link])"
-            :key="text"
-          >
-            <v-btn
-              style="text-transform: none;"
-              v-bind="props"
-              :color="colors.darkgreen"
-              variant="elevated"
-              prepend-icon="mdi-link-variant"
-            >{{ text }}</v-btn>
-          </template>
+          <v-btn
+            style="text-transform: none;"
+            v-bind="props"
+            :color="colors.darkgreen"
+            variant="elevated"
+            prepend-icon="mdi-link-variant"
+          >{{ text }}</v-btn>
         </template>
         <v-list>
           <v-list-item @click="copy(url)">
